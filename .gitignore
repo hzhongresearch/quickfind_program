@@ -1,0 +1,9 @@
+CMakeCache.txt
+CMakeFiles/
+Makefile
+cmake_install.cmake
+output_features.csv
+output_segments.csv
+output_segments.png
+output_viewable.png
+QuickFind_exe
