@@ -61,4 +61,4 @@ Run with included sample test data using the following commands.
 5. <d1> <d2> <d3> : corresponds with params d1, d2 in the paper. Controls maximum depth threshold of segment. Larger d1, d2 will increase threshold linearly. For now d3 is unused.
 6. <w1> <w2> <w3> : corresponds with params w1, w2 in the paper. Controls maximum width threshold of segment. Larger w1, w2 will increase threshold linearly. For now w3 is unused.
 7. <h1> <h2> <h3> : corresponds with params h1, h2 in the paper. Controls maximum height threshold of segment. Larger h1, h2 will increase threshold linearly. For now h3 is unused.
-8. <s1> <s2>: corresponds with feature scaling params in the paper. Block values which are non-zero are scaled between s1 s2.
+8. <s1> <s2> : corresponds with feature scaling params in the paper. Block values which are non-zero are scaled between s1 s2.
