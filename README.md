@@ -54,11 +54,11 @@ Run with included sample test data using the following commands.
 ./QuickFind_exe <Input depth map> <Output file name> <Horizontal blocks> <Vertical blocks> <n1> <n2> <n3> <d1> <d2> <d3> <w1> <w2> <w3> <h1> <h2> <h3> <s1> <s2>
 ```
 
-1. <Input depth map> : location of the input depth images.
-2. <Output file name> : the results of the program will be saved into files pre-pended with this file path and name.
-3. <Horizontal blocks> <Vertical blocks> : corresponds with params n, m in the paper. Each segment is divided into blocks which are (Horizontal blocks) x (Vertical blocks) in resolution. Feature computation is applied to each block. Increase this value if input resolution is higher to improve object detection accuracy.
-4. <n1> <n2> <n3> : corresponds with params n1, n2 in the paper. Controls maximum absolute difference threshold allowed between neighbouring pixels. Larger n1, n2 will increase threshold exponentially. For now n3 is unused.
-5. <d1> <d2> <d3> : corresponds with params d1, d2 in the paper. Controls maximum depth threshold of segment. Larger d1, d2 will increase threshold linearly. For now d3 is unused.
-6. <w1> <w2> <w3> : corresponds with params w1, w2 in the paper. Controls maximum width threshold of segment. Larger w1, w2 will increase threshold linearly. For now w3 is unused.
-7. <h1> <h2> <h3> : corresponds with params h1, h2 in the paper. Controls maximum height threshold of segment. Larger h1, h2 will increase threshold linearly. For now h3 is unused.
-8. <s1> <s2> : corresponds with feature scaling params in the paper. Block values which are non-zero are scaled between s1 s2.
+1. ```<Input depth map>``` : location of the input depth images.
+2. ```<Output file name>``` : the results of the program will be saved into files pre-pended with this file path and name.
+3. ```<Horizontal blocks> <Vertical blocks>``` : corresponds with params n, m in the paper. Each segment is divided into blocks which are (Horizontal blocks) x (Vertical blocks) in resolution. Feature computation is applied to each block. Increase this value if input resolution is higher to improve object detection accuracy.
+4. ```<n1> <n2> <n3>``` : corresponds with params n1, n2 in the paper. Controls maximum absolute difference threshold allowed between neighbouring pixels. Larger n1, n2 will increase threshold exponentially. For now n3 is unused.
+5. ```<d1> <d2> <d3>``` : corresponds with params d1, d2 in the paper. Controls maximum depth threshold of segment. Larger d1, d2 will increase threshold linearly. For now d3 is unused.
+6. ```<w1> <w2> <w3>``` : corresponds with params w1, w2 in the paper. Controls maximum width threshold of segment. Larger w1, w2 will increase threshold linearly. For now w3 is unused.
+7. ```<h1> <h2> <h3>``` : corresponds with params h1, h2 in the paper. Controls maximum height threshold of segment. Larger h1, h2 will increase threshold linearly. For now h3 is unused.
+8. ```<s1> <s2>``` : corresponds with feature scaling params in the paper. Block values which are non-zero are scaled between s1 s2.
