@@ -4,7 +4,7 @@ This program is called QuickFind. It is designed to quickly segment a depth map 
 
 There is one change from the original research paper. The feature which computes the median value of pixels in a block is replaced with mean for improved speed and code maintenance.
 
-QuickFind was created during my PhD. The research paper "Quickfind: Fast and contact-free object detection using a depth sensor" was presented at PerCom Workshops 2016. My research is in Ubiquitous Computing and Computer Vision. You can send questions to: henry (dot) zhong (at) unswalumni (dot) com . If you use this work please consider citing our paper.
+QuickFind was created during my PhD. The research paper "Quickfind: Fast and contact-free object detection using a depth sensor" was presented at PerCom Workshops 2016. My research is in Ubiquitous Computing and Computer Vision. If you use this work please consider citing our paper.
 
 ```
 @inproceedings{zhong2016quickfind,
