@@ -6,7 +6,7 @@ There is one change from the original research paper. The feature which computes
 
 This is the code for QuickFind.
 
-If you use this work please consider citing our paper.
+If you use this work please cite our paper.
 
 ```
 @inproceedings{zhong2016quickfind,
