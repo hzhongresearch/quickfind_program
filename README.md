@@ -23,8 +23,8 @@ The code, data and paper can be downloaded at the following link.
 https://hzhongresearch.github.io/
 ```
 
-### License
-Copyright 2016 HENRY ZHONG. The code is released under MIT license. See LICENSE.txt for details.
+### Licence
+Copyright 2016 HENRY ZHONG. The code is released under MIT licence. See LICENCE.txt for details.
 
 ### Usage instructions
 This version of the code has been tested under Debian Linux. Before use, first install prerequisite packages:
