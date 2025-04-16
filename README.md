@@ -1,10 +1,12 @@
 # Description of QuickFind program
 
-This program is called QuickFind. It is designed to quickly segment a depth map and compute features from each segment. The features can be used to perform object detection when passed on to a machine learning algorithm. The depth maps are expected to come from a sensor like the Kinect V1. The program works with depth maps which have each pixel in 16 bit unsigned format. The program will produce: a PNG with colour coded segments, a CSV with number coded segments, a CSV containing features computed from each segment and a human viewable PNG of the depth map.
+QuickFind is a fast segmentation and object detection algorithm using only depth maps. Depth maps are images captured from depth sensors like Kinect. The idea is in the future depth sensors will be common so such an algorithm will be useful. This project was created during my PhD. The associated research paper was presented at PerCom Workshops 2016.
 
 There is one change from the original research paper. The feature which computes the median value of pixels in a block is replaced with mean for improved speed and code maintenance.
 
-QuickFind was created during my PhD. The research paper "Quickfind: Fast and contact-free object detection using a depth sensor" was presented at PerCom Workshops 2016. My research is in Ubiquitous Computing and Computer Vision. If you use this work please consider citing our paper.
+This is the code for QuickFind.
+
+If you use this work please consider citing our paper.
 
 ```
 @inproceedings{zhong2016quickfind,
@@ -17,7 +19,7 @@ QuickFind was created during my PhD. The research paper "Quickfind: Fast and con
 }
 ```
 
-The code, data and paper can be downloaded at the following link.
+The code, data and paper can be downloaded from the following page.
 
 ```
 https://hzhongresearch.github.io/
