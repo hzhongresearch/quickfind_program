@@ -42,14 +42,14 @@ Run with included sample test data using the following command.
 7. ```<h1> <h2> <h3>``` : corresponds with params h1, h2 in the paper. Controls maximum height threshold of segment. Larger h1, h2 will increase threshold linearly. For now h3 is unused.
 8. ```<s1> <s2>``` : corresponds with feature scaling params in the paper. Block values which are non-zero are scaled between s1 s2.
 
-## Links
-The code, data and paper can be downloaded from the following page.
+# Links
 
-```
-https://hzhongresearch.github.io/
-```
+* [Website](https://hzhongresearch.github.io/)
+* [Paper](https://www.researchgate.net/publication/301583832_QuickFind_Fast_and_contact-free_object_detection_using_a_depth_sensor)
+* [Code](https://github.com/hzhongresearch/quickfind_program)
+* [Data](https://huggingface.co/datasets/hzhongresearch/quickfind_mask_data)
 
-## Licence
+# Licence
 Copyright 2016 HENRY ZHONG. The code is released under MIT licence. See [LICENCE.txt](LICENCE.txt).
 
 If you use this work please cite our paper.
